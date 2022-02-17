@@ -39,7 +39,7 @@ console.log(getinfo);
               <div className='main'>
             <div className='top'>
             <span>contact Us</span>
-            <button onClick={handleclose} ><i class="fa-solid fa-xmark"></i> </button>
+            <span onClick={handleclose} className="close-btn" >X</span>
             </div>
             <br />
             <div className='sp'>
