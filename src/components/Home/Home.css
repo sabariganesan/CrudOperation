@@ -1,0 +1,107 @@
+.main{
+    display: flex;
+  flex-direction: row;
+}
+
+.first {
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+      
+    }  
+.s1,.s2,.s3{
+    color: blue;
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: rgb(250, 250, 250)
+}
+.third{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  position: relative;
+  top: -55px;
+  padding-left: 10px;
+  border-left: 1px solid rgb(185, 183, 183);
+}
+.a1{
+  height: 26vh;
+  /* margin-top: 28px; */
+  
+}
+.a2{
+  height: 26vh;
+
+}
+.a3{
+  height: 26vh;
+
+}
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20vh;
+  position: relative;
+  top: -43px;
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20vh;
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  position: relative;
+  top: 08px;
+}
+.readmore{
+  color: blue;
+}
+.date{
+  color: rgb(52, 219, 108);
+  font-weight: bold;
+}
+.upper h1{
+  color: rgb(52, 219, 108);
+ 
+}
+.lower {
+  position: relative;
+  top: -90px;
+  border-top: 1px solid rgb(185, 183, 183);
+
+}
+.details{
+  color: rgb(52, 219, 108);
+
+}
+.fa-brands
+{
+  font-size: 200%;
+  color: blue;
+}
+ .fa-google{
+   color: rgb(238, 42, 28);
+ }
+ .fa-twitter{
+   color: rgb(104, 149, 233);
+ }
+.icon{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ position: relative;
+ top: 15px;
+ right: 10px; 
+}

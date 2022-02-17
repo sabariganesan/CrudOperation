@@ -1,16 +1,17 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import { CommonContext } from "./components/common/context/context";
+import Home from "./components/Home/Home";
+// import { CommonContext } from "./components/common/context/context";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommonContext.Provider>
+    <Home/>
+    {/* <CommonContext.Provider>
       <RoutePage />
-    </CommonContext.Provider>
+    </CommonContext.Provider> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
