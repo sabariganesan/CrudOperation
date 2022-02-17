@@ -1,16 +1,19 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
+// import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import { CommonContext } from "./components/common/context/context";
+import Contact from "./components/contact/Contact"
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommonContext.Provider>
+  
+    <Contact />
+
+    {/* <CommonContext.Provider>
       <RoutePage />
-    </CommonContext.Provider>
+    </CommonContext.Provider> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
