@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  .main{
+    height: 550px;
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    /* box-shadow: blue; */
+   
+}
+.btnmodal{
+     margin: 10px 100px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 125, 236);
+   
+}
+.top span{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.top button{
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.sp{
+    
+    position: relative;
+    top: -18px;
+    left: 10px;
+}
+.hr{
+    position: relative;
+    top: -20px;
+
+}
+.btn1{
+    position: relative;
+    top: -30px;
+    left: 430px;
+    
+}
+.btn1 button{
+    line-height: 20px;
+    padding: 0 12px;
+    background-color: rgb(65, 125, 236);
+    border: none;
+    color: rgb(247, 244, 240);
+}
+
+.form {
+    position: relative;
+    top: -20px;
+     /* background-color: rgb(146, 230, 230); */
+}
+.form label{
+    position: relative;
+    left: 10px;
+    width: 170px;
+}
+.form div{
+    margin-bottom: 10px;
+}
+.massage{
+    position: relative;
+    top: -75px;
+}
+.input{
+    height: 22px;
+    width: 420px;
+    padding-left: 2px;
+    font-size: 15px;  
+}
+.phone{
+    height: 22px;
+    width: 280px;
+    margin-right: 10px;
+
+}
+.ext{
+    height: 22px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+.te{
+    padding-left: 5px;
+}
+.btn2{
+    position: relative;
+    left: 430px;
+    top: -5px;
+}
+.btn2 button{
+    line-height: 20px;
+    padding: 0 12px;
+    background-color: rgb(65, 125, 236);
+    border: none;
+    color: rgb(247, 244, 240);
+}
+.check{
+    position: relative;
+    left: 170px;
+    width: 240px;
+    padding: 10px 5px;
+    background-color: rgb(219, 213, 213);
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.267);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fa-solid{
+    
+    font-size: 20px;
+    height: 30px;
+    font-weight: bolder;
+} */
+.close-btn{
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+   
+}
