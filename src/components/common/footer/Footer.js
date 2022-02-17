@@ -20,9 +20,9 @@ function Footer() {
         </div>
         <div className='footer_2'>
               <div className='footer_policy'>
-                <h6>Terms of Use</h6>
-                <h6>Privacy Police</h6>
-                <h6>Build 17/02/2021</h6>
+                <a href=''>Terms of Use</a>
+                <a href=''>Privacy Police</a>
+                <a href=''>Build 17/02/2021</a>
               </div>
              <div className='footer_copyright'>
                 <p>Copyright @2022 National Iventory Exchange Network</p>
