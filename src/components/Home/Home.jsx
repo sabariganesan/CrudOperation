@@ -1,12 +1,12 @@
 import React from 'react'
+import {AiOutlineFacebook,AiFillLinkedin,AiOutlineTwitter} from 'react-icons/ai'
 import './Home.css'
-
 function Home() {
   return (
     <div className='main'>
     
     <div className="first">
-    <div className="a1"><h1 className='s1'>WHY</h1></div>
+    <div className="a1"><h1 className='s1'>WHY </h1></div>
     <div className="a2"><h1 className='s2'>WHAT</h1></div>
     <div className="a3"><h1 className='s3'>HOW</h1></div>
 
@@ -56,10 +56,10 @@ function Home() {
                  Shokopee,MN 55379.
             </div>
             <div className="icon">
-              <div><i class="fa-brands fa-facebook-f"></i></div>
-              <div><i class="fa-brands fa-twitter"></i></div>
-              <div><i class="fa-brands fa-google"></i></div>
-            
+              <div><AiOutlineFacebook size={40} color='#0a2cf0'/></div>
+              <div><AiOutlineTwitter size={40} color='#1b1182'/></div>
+              <div><AiFillLinkedin size={40} color='#6fbcf2'/></div>
+              
             </div>
       </div>
 
