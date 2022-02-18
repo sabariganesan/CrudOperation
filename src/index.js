@@ -1,19 +1,13 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import Contact from "./components/contact/Contact"
+import Footer from "../src/components/common/footer/Footer"
 
 ReactDOM.render(
   <React.StrictMode>
-  
-    <Contact />
-
-    {/* <CommonContext.Provider>
-      <RoutePage />
-    </CommonContext.Provider> */}
+      <Footer/>
   </React.StrictMode>,
   document.getElementById("root")
 );
