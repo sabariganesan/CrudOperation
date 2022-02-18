@@ -13,12 +13,13 @@ ReactDOM.render(
 // import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import { Transaction } from "./components/transaction/transaction";
-// import { CommonContext } from "./components/common/context/context";
+import Contact from "./components/contact/Contact"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Transaction />
+  
+    <Contact />
+
     {/* <CommonContext.Provider>
       <RoutePage />
     </CommonContext.Provider> */}
