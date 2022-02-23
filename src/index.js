@@ -5,18 +5,14 @@ import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-// import RegisterMyCompany from "./components/registerMyCompany/registerMyCompany";
-// import PopupRg from "./components/registerMyCompany/popupRg";
-// import Popup from "./components/contact/Popup";
+
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     
     <RoutePage />
-    {/* <RegisterMyCompany/> */}
-    {/* <PopupRg/> */}
-    {/* <Popup/> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
