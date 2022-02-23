@@ -4,10 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
 import Footer from "../src/components/common/footer/Footer"
+import BuySell from "../src/components/buy&sell/BuySell"
 
 ReactDOM.render(
   <React.StrictMode>
-      <Footer/>
+      <BuySell/>
   </React.StrictMode>,
   document.getElementById("root")
 );
