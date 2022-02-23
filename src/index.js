@@ -3,11 +3,15 @@ import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import Footer from "../src/components/common/footer/Footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-      <Footer/>
+    
+    <RoutePage />
+      
   </React.StrictMode>,
   document.getElementById("root")
 );
