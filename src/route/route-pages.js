@@ -8,6 +8,7 @@ import Header from "../components/common/header/header";
 import Footer from "../components/common/footer/Footer";
 import { Aboutus } from "../components/aboutus/aboutus";
 
+
 export function RoutePage() {
   return (
     <Router>
@@ -17,8 +18,8 @@ export function RoutePage() {
           <Route path='/popup' element ={<Popup />} />
           <Route path='/contact' element ={<Contact />} />
           <Route path='/guest' element ={<Guest />} />
-          
-          <Route path='/about' element ={<Aboutus />} />
+         <Route path='/about' element ={<Aboutus />} />
+       
 
         </Routes>
         <Footer />

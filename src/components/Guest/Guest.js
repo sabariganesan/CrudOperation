@@ -1,5 +1,5 @@
 import React from 'react'
-
+import RegisterMyCompany from '../registerMyCompany/registerMyCompany'
 const Guest = () => {
   return (
     <div>
@@ -15,7 +15,7 @@ const Guest = () => {
     <li className="list-group-item active">Buying & Selling information</li>
     <li className="list-group-item">Search items for sales</li>
     <li className="list-group-item">Locate A Member Distributer </li>
-    <li className="list-group-item">Register My Company</li>
+    <li className="list-group-item"><RegisterMyCompany/></li>
   </ul>
  
 </span>
