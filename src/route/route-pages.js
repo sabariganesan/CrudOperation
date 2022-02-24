@@ -8,6 +8,7 @@ import Header from "../components/common/header/header";
 import Footer from "../components/common/footer/Footer";
 import { Aboutus } from "../components/aboutus/aboutus";
 import Buysell from "../components/buy&sell/BuySell"
+import MenuLocator from "../components/MenuLocator/Register"
 
 
 export function RoutePage() {
@@ -21,6 +22,7 @@ export function RoutePage() {
           <Route path='/guest' element ={<Guest />} />
          <Route path='/about' element ={<Aboutus />} />
          <Route path='/buyerseller' element ={<Buysell/>} />
+         <Route path='/Register' element ={<MenuLocator />}/>
             
        
 
