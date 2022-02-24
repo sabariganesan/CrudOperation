@@ -7,12 +7,11 @@ import Guest from "../components/Guest/Guest";
 import Header from "../components/common/header/header";
 import Footer from "../components/common/footer/Footer";
 import { Aboutus } from "../components/aboutus/aboutus";
-import BuySell from "../components/buy&sell/BuySell";
+import Buysell from "../components/buy&sell/BuySell"
 
 
 export function RoutePage() {
   return (
-
     <Router>
       <Header />
       
@@ -21,7 +20,8 @@ export function RoutePage() {
           <Route path='/contact' element ={<Contact />} />
           <Route path='/guest' element ={<Guest />} />
          <Route path='/about' element ={<Aboutus />} />
-         <Route path="/buyerseller" element={<BuySell/>}/>
+         <Route path='/buyerseller' element ={<Buysell/>} />
+            
        
 
         </Routes>
