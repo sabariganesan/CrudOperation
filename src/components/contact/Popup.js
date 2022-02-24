@@ -70,7 +70,7 @@ console.log(getinfo);
                </div>
                <div>
                    <label htmlFor="phone"> Phone</label>
-                   <input type='number'id='phone' placeholder='Enter phone' className='phone'  name='phone'value={userinfo.phone}onChange={valueChange} required />
+                   {/* <input type='number'id='phone' placeholder='Enter phone' className='phone'  name='phone'value={userinfo.phone}onChange={valueChange} required /> */}
 
                     <span>Ext</span>
                    <input type="text"placeholder='Enter Ext'className='ext'name='ext'value={userinfo.ext}onChange={valueChange} required  />

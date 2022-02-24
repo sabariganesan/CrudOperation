@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
            <button onClick={toggleModal} className="btnmodal">
-        Contact Us
+        CONTACT US
       </button>
       { modal &&(
             <div><Popup close={toggleModal} /></div>
