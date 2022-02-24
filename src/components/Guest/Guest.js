@@ -1,7 +1,5 @@
-import React  from 'react'
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
-
+import React from 'react'
+import RegisterMyCompany from '../registerMyCompany/registerMyCompany'
 const Guest = () => {
   const [menu,setMenu] = useState(false);
   const changeMenu=()=>{
@@ -21,7 +19,7 @@ const Guest = () => {
     <li className="list-group-item "><Link to="/buyerseller">Buying & Selling information</Link></li>
     <li className="list-group-item">Search items for sales</li>
     <li className="list-group-item">Locate A Member Distributer </li>
-    <li className="list-group-item">Register My Company</li>
+    <li className="list-group-item"><RegisterMyCompany/></li>
   </ul>
  
 </span>

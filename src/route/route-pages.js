@@ -9,6 +9,7 @@ import Footer from "../components/common/footer/Footer";
 import { Aboutus } from "../components/aboutus/aboutus";
 import BuySell from "../components/buy&sell/BuySell";
 
+
 export function RoutePage() {
   return (
 
@@ -19,8 +20,8 @@ export function RoutePage() {
           <Route path='/popup' element ={<Popup />} />
           <Route path='/contact' element ={<Contact />} />
           <Route path='/guest' element ={<Guest />} />
-          <Route path='/about' element ={<Aboutus />} />
-          <Route path='/buyerseller' element={<BuySell/>}/>
+         <Route path='/about' element ={<Aboutus />} />
+       
 
         </Routes>
         <Footer />
