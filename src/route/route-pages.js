@@ -21,6 +21,7 @@ export function RoutePage() {
           <Route path='/contact' element ={<Contact />} />
           <Route path='/guest' element ={<Guest />} />
          <Route path='/about' element ={<Aboutus />} />
+         <Route path="/buyerseller" element={<BuySell/>}/>
        
 
         </Routes>

@@ -1,5 +1,7 @@
 import React from 'react'
 import RegisterMyCompany from '../registerMyCompany/registerMyCompany'
+import {Link} from 'react-router-dom'
+import {useState} from 'react'
 const Guest = () => {
   const [menu,setMenu] = useState(false);
   const changeMenu=()=>{
