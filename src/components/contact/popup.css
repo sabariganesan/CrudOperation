@@ -6,8 +6,8 @@
     height: 560px;
     width: 600px;
     margin: auto;
-    box-sizing: border-box;
-    background-color: whitesmoke;
+    /* box-sizing: border-box; */
+    background-color: rgb(245, 245, 245);
     /* box-shadow: blue; */
    
 }

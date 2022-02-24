@@ -5,14 +5,13 @@ import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Search from "./components/Search Item for Sale/Search";
 // import Route from "./route/route-pages"
 //import Header from "./components/common/header/header";
 
+
+
 ReactDOM.render(
   <React.StrictMode>
-    
-  {/* <Search/> */}
    <RoutePage/>      
   </React.StrictMode>,
   document.getElementById("root")

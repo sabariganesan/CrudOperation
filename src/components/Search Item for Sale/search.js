@@ -46,18 +46,18 @@ const Search = () => {
           const selectedDataStringPresentation = selectedData.map( node => `${node.make} ${node.model}`).join(', ')
           alert(`Selected nodes: ${selectedDataStringPresentation}`)
       }   
-   return (<div style={{position:'relative',top:"110px",left:"30px"}}>
+   return (<div style={{position:'relative',top:"0px",left:"30px"}}>
        <div style={{position:'relative',left:"160px"}}>
        <h1>View NIE Inventory For Sale</h1>
    </div>
-       <div className="ag-theme-alpine" style={{height:"451px", width: 1303}}>
+       <div className="ag-theme-alpine" style={{height:"300px", width: 1303}}>
        <button onClick={onButtonClick}>Get selected rows</button>
            <AgGridReact
             ref={gridRef}
                rowData={rowData}
                columnDefs={columnDefs}
                pagination={true}
-               paginationPageSize={8}
+               paginationPageSize={4}
                rowSelection="multiple"
             >
            </AgGridReact>
