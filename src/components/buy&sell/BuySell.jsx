@@ -70,7 +70,7 @@ function BuySell() {
     <p>zgg</p>
     </div>
     {/* <span className='cont'>contact us</span> */}
-    <p>Please <span className='cont'>contact us</span> if your industry is not yet included. We are in the process of establishing a beneficial network for all industries. We also are looking for experienced industry distributor consultants to assist us in this effort.</p>
+    <p>Please <a href="">Contact Us</a> if your industry is not yet included. We are in the process of establishing a beneficial network for all industries. We also are looking for experienced industry distributor consultants to assist us in this effort.</p>
     
   </div>
 </div>

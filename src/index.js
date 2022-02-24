@@ -3,14 +3,6 @@ import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-<<<<<<< HEAD
-import Footer from "../src/components/common/footer/Footer"
-import BuySell from "../src/components/buy&sell/BuySell"
-
-ReactDOM.render(
-  <React.StrictMode>
-      <BuySell/>
-=======
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -20,7 +12,6 @@ ReactDOM.render(
     
     <RoutePage />
       
->>>>>>> bd51d399f88fa29d5ef415b64871b8d23fcf49b5
   </React.StrictMode>,
   document.getElementById("root")
 );
