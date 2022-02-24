@@ -19,8 +19,8 @@ const Guest = () => {
 <span className="card" style={{width: "15rem"}} id ='collapseExample' >
   <ul className="list-group list-group-flush">
     <li className="list-group-item "><Link to="/buyerseller">Buying & Selling information</Link></li>
-    <li className="list-group-item">Search items for sales</li>
-    <li className="list-group-item">Locate A Member Distributer </li>
+    <li className="list-group-item"><Link to="/searchItem">Search items for sales </Link></li>
+    <li className="list-group-item"> Locate A Member Distributer </li>
     <li className="list-group-item"><RegisterMyCompany/></li>
   </ul>
  
