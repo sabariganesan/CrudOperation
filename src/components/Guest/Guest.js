@@ -1,5 +1,6 @@
 import React from 'react'
 import RegisterMyCompany from '../registerMyCompany/registerMyCompany'
+// import MenuLocator from '../MenuLocator/Register'
 import {Link} from 'react-router-dom'
 import {useState} from 'react'
 const Guest = () => {
@@ -20,7 +21,7 @@ const Guest = () => {
   <ul className="list-group list-group-flush">
     <li className="list-group-item "><Link to="/buyerseller">Buying & Selling information</Link></li>
     <li className="list-group-item">Search items for sales</li>
-    <li className="list-group-item">Locate A Member Distributer </li>
+    <li className="list-group-item"><Link to="/Register"> Locate A Member Distributer</Link></li>
     <li className="list-group-item"><RegisterMyCompany/></li>
   </ul>
  

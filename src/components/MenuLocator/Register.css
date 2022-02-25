@@ -1,0 +1,214 @@
+.container{
+   width: 100%;
+   height: 620px;
+}
+.centerdiv>h2{
+  font-weight: 500;
+   font-size: 28px;
+   position: relative;
+   color:grey;
+   top:10px;
+}
+.centerdiv>p{
+  position:relative;
+  bottom: 5%;
+  top: 10px;
+  width:93%
+}
+
+.leftdiv{
+  float: left;
+  margin-bottom: 20px;
+  width: 275px;
+  height: 200px;
+  bottom: 10px;
+  position: relative;
+
+}
+.centrediv{
+  width: 500px;
+  height: 600px;
+  float:left;
+  bottom: 32px;
+  margin: 10px;
+  position:relative;
+
+  
+}
+/* h3{ 
+  height: 20px;
+  width: 50%;
+  background-color: brown;
+/* } */
+h5{
+  height: 40px;
+}
+  
+
+.buttonset{
+  background-color: dodgerblue;
+   height: 30px;
+   width: 80px;
+   position:relative;
+   bottom: 40px;
+   margin-left: 58%;
+   border: 10px;
+   font-weight: 500;
+   color: white;
+   cursor: pointer;
+}
+.buttonsets{
+  background-color: dodgerblue;
+  height: 30px;
+  width: 80px;
+  position:relative;
+  bottom: 70px;
+  margin-left: 80%;
+  border: 10px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+.name{
+  bottom: 60px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.first{
+  width:240px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 60px;
+}
+.company{
+  bottom: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.second{
+  width:240px;
+  margin-left:10%;
+  position: relative;
+  bottom: 50px;
+}
+.address1{
+  bottom: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.third{
+  width:240px;
+  margin-left: 20%;
+  position: relative;
+  bottom: 40px;
+}
+.address2{
+  bottom: 25px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.fourth{
+  width:240px;
+  margin-left: 20%;
+  position: relative;
+  bottom: 30px;
+}
+.state{
+  bottom:15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.fifth{
+  width:240px;
+  margin-left: 26%;
+  position: relative;
+  bottom:15px ;
+}
+.zipcode{
+   position: relative;
+   bottom: 20px;
+
+}
+.six{
+  width:240px;
+  margin-left: 20%;
+  position: relative;
+  bottom: 18px;
+}
+.email{
+bottom: 9px;
+position: relative;
+
+}
+.seven{
+ position:relative;
+  margin-left: 25%;
+
+  bottom: 10px;
+  width: 240px;
+}
+.nie{
+  display: flex;
+  width:34%;
+  top: 30px;
+  position:relative;
+}
+.input3{
+  width: 49%;
+  margin-left: 34%;
+  position: relative;
+  top:6px;
+}
+.message{
+  width:32%;
+  top:8px;
+  position:relative;
+}
+.input4{
+  width: 50%;
+  height: 80px;
+  margin-left: 21%;
+  position: relative;
+  top: 16px;
+}
+.date{
+  top: 18px;
+position: relative;
+margin-left: 74%;
+}
+.box{
+  top: 20px;
+  position:relative;
+  margin-left: 33%;
+  width: 52%;
+  height: 86px;
+}
+.para{
+   bottom: 20%;
+   margin-left: 55%;
+position: relative;
+}
+.button1{
+  background-color: dodgerblue;
+   height: 30px;
+   width: 80px;
+   position:relative;
+   top: 10%;
+   margin-left: 58%;
+   border: 10px;
+   font-weight: 500;
+   color: white;
+   cursor: pointer;
+}
+.button2{
+  background-color: dodgerblue;
+  height: 30px;
+  width: 80px;
+  position:relative;
+  top:5%;
+  margin-left: 80%;
+  border: 10px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}

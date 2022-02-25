@@ -5,13 +5,14 @@ import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Register from "./components/MenuLocator/Register";
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    
+    {/* <Register /> */}
     <RoutePage />
   </React.StrictMode>,
   document.getElementById("root")
