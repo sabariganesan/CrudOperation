@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    
+    
+}
+.footer_1{
+background-color:rgba(102,191,135);
+ width: 100%;
+ height: 55px;
+ color: rgba(245, 245, 245, 0.972);
+}
+.footer_phone{
+position: relative;
+width: 12%;
+height: 50px;
+left: 150px;
+top: 10px;
+}
+.phone{
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
+.phoneNo{
+position: absolute;
+left: 50px;
+bottom:3px;
+}
+.phoneIcon{
+    position: absolute;
+    height: 40px;
+    top:2px;
+}
+.footer_mail{
+position: relative;
+width: 25%;
+height: 50px;
+left: 350px;
+bottom: 40px;
+}
+.footerMail{
+    position: absolute;
+    left: 40px;
+    top: 2px;
+   }
+.footermail{
+ position: absolute;
+ left: 40px;
+ bottom:3px;
+}
+.mailImg{
+    position: absolute;
+    height: 30px;
+    top: 6px;
+}
+/* *************************** */
+
+.footer_2{
+    width: 100%;
+    height: 35px;
+}
+.footer_policy{
+    height: 20px;
+    position: relative;
+    left: 40%;
+    width: 30%;
+    display: flex;
+}
+.footer_policy>a{
+    flex: 1;
+}
+.footer_copyright{
+    text-align: center;
+}

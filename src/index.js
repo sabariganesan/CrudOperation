@@ -1,16 +1,18 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import { CommonContext } from "./components/common/context/context";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommonContext.Provider>
-      <RoutePage />
-    </CommonContext.Provider>
+    
+    <RoutePage />
   </React.StrictMode>,
   document.getElementById("root")
 );
