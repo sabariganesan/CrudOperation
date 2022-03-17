@@ -1,10 +1,12 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { RoutePage } from "./route/route-pages";
+// import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Manage from "./components/Manage Item Requests/Manage";
+// import Search from "./components/Search Item for Sale/Search"
 // import Route from "./route/route-pages"
 //import Header from "./components/common/header/header";
 
@@ -12,7 +14,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ReactDOM.render(
   <React.StrictMode>
-   <RoutePage/>      
+ {/* <RoutePage/> */}
+   {/* <Search/>    */}
+   <Manage />
   </React.StrictMode>,
   document.getElementById("root")
 );
